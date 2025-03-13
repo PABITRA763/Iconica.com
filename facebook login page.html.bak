@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>Facebook login page</title>
+</head>
+<body>
+    <div class="container">
+	<div class="leftpart">
+	 <h1>Facebook</h1>
+	 <h1>Thanks to login my website ICONICA</h1>
+	 </div>
+	 <div class="rightpart"
+	 <div class="loginpage">
+	 <form>
+	 <input type="text" placeholder="Email or phone number">
+	 <input type="password" placeholder="Password">
+	 <input type="Submit">
+	 </form>
+	 <p>Forgot password?</p>
+	 <hr>
+	 <div class="createaccount">
+	 Create a new account
+	 </div>
+	 <span>Create a page for a well-know person or buisness</span>
+	 </div>
+	 </div>
+</body>	 
+</html>

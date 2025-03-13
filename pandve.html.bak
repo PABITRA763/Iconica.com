@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: green;
+   color: white;
+   text-align: center;
+}
+body {
+  background-image: url('gfd.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
+</head>
+<body style="font-family:Verdana;">
+<div style="background-color: gold; padding:15px; <image src="imm_25.png"width="5%" height="5%">
+  <h1>PHOTO AND VIDEO EDITING</h1>
+  <h3>It is provide only photos and videos creativity.</h3>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+    <div class="menuitem"><h3><u><p style="color:white">EDITING INSTRUCTIONS:</p></u></h3></div>
+    <div class="menuitem"><h4><p style="color:white">1. Computer/ Phone.</p></h4></div>
+    <div class="menuitem"><h4><p style="color:white">2. High Defination Editing.</p></h4></div>
+    <div class="menuitem"><h4><p style="color:white">3. <b>"ICONICA"</b> Watermark for all photos and videos.</p></h4></div>
+	<div class="menuitem"><h4><p style="color:white"><b>  If you order it then open the QR CODE tab and pay.</b> </p></h4></div>
+  </div>
+
+  <div class="main">
+    <h2><U><p style="color:white">DISCUSSION OF THIS TOPIC :</p></U></h2>
+    <p><p style="color:white">We are accept various photos and videos for editing whithout bad intention. If you order for edits your photo and video so we take it and nicely edit and delivered you.</p></p>
+    <img src="pv.jpg" height="0%" style="width:83%">
+  </div>
+
+  <div class="right">
+    <h2>EDITOR</h2>
+    <p>I'm Pabitra as a Editor. Editing is the answer to your imagination and creativity. The first thing to know is that Editing is actually pretty easy, and you can definitely do it.</p>
+    <h2>CONTACT</h2>
+    <p>I live in city of Kolkata in the state of West Bengal, India. Please contact me if you would like to order any of your drawings. My number: 7980571758.</p>
+    <h2>ORDERS PRICE</h2>
+    <p><b>Each orders:</b> 50/- Rupees is the charge of each other photos which can you order.</p>
+  </div>
+</div>
+
+
+<div style="background-color:#f1f1f1;text-align:center;padding:5px;margin-top:7px;font-size:5px;"> This web page is a part of a demonstration of fluid web design made by w3schools.com. Resize the browser window to see the content respond to the resizing.</div>
+<div class="footer">
+  <p>&#169ICONICA</p>
+</div>
+</body>
+</html>
+

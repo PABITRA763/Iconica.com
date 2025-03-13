@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<image src="imm_25.png" width="5%" height="5%">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FFFFFF00;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 40px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: green;
+   color: white;
+   text-align: center;
+}
+body {
+  background-image: url('79.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>ICONICA.COM</h1>
+<hr>
+
+<h2>My Works</h2>
+<p>This is the example of my works which is preffered by Iconica</p>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="my.jpg" alt="Mountains" style="width:100%">
+      <h3>Portait Drawing of Rajasthani Old Man.</h3>
+      <p>It is a pencil sketch. Various materials are uses like charcol, clay eraser, shedding pencils etc. Art by Pabitra Ghosh.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="ph1.jpg" alt="Lights" style="width:100%">
+      <h3>Spinach Photo Editing</h3>
+      <p>It has to be possible any devices just like phone and computer. Photo editing was always make the photos artificial beauty. Editing by Pabitra Ghosh.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="wer.png" alt="Nature" style="width:100%">
+      <h3>New Year Poster</h3>
+      <p>It is always used to any company and function poster. The first thing to know is that Poster making is actually pretty easy, and you can definitely do it..</p>
+    </div>
+  </div>
+  
+<!-- END GRID -->
+</div>
+
+<div class="content">
+  
+  <h3><center><p style="color:red"> ALERT</p></center></h3>
+  <p><h3> With due respect and humble submission We kindly inform you that the several works of ICONICA please don't copy to anywhere.</h3></p>
+</div>
+
+<!-- END MAIN -->
+</div>
+<div class="footer">
+  <p>&#169ICONICA</p>
+</div>
+</body>
+</html>
